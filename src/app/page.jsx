@@ -1,17 +1,13 @@
-import Navbar from "@/components/Navbar";
 import React from "react";
-import Link from "next/link";
+import Home from "./pages/home/page";
 
-import Profile from "@/components/Profile";
 
-function Home() {
+function Page() {
   return (
     <>
-      <Navbar />
-      {/* <div></div>
-      <Profile/> */}
+      <Home/>
     </>
   );
 }
 
-export default Home;
+export default Page;
