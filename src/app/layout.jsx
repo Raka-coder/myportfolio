@@ -11,7 +11,7 @@ const poppins = Poppins({
   });
 
 const metadata = {
-  title: "Next",
+  title: "Portfolio Saya",
   description: "Deskripsi Aplikasi",
 };
 

@@ -5,7 +5,7 @@ function page() {
   return (
     <div>
         <Navbar/>
-        <div className="pt-16">
+        <div className="pt-20">
 
         About Page
         </div>

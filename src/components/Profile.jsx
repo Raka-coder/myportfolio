@@ -3,9 +3,10 @@ import Image from 'next/image';
 
 const Profile = () => {
   return (
+    <>
     <section 
       id="home" 
-      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 to-purple-100"
+      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50 pt-12"
     >
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 text-center md:text-left">
@@ -33,17 +34,19 @@ const Profile = () => {
         </div>
         <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
           <div className="relative w-64 h-64 md:w-96 md:h-96">
-            <Image 
+            {/* <Image 
               src="/profile.png" 
-              alt="Profile Picture" 
+              alt='raka'
               layout="fill" 
               objectFit="cover" 
+              title='Raka Restu Saputra'
               className="rounded-full shadow-xl"
-            />
+            /> */}
           </div>
         </div>
       </div>
     </section>
+    </>
   );
 };
 
