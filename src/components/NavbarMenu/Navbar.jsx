@@ -14,13 +14,13 @@ const Navbar = () => {
         {/* Logo */}
         <Link
           href="/"
-          className="text-2xl font-bold text-gray-800 hover:text-blue-600 transition"
+          className="text-2xl font-semibold text-gray-800 hover:text-blue-600 transition"
         >
-          Raka.
+          Raka<code>()</code>
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-6">
           <Link
             href="/"
             className="
@@ -43,12 +43,24 @@ const Navbar = () => {
               transition 
               duration-300 
               px-3 py-2 
-              rounded-md 
-              hover:bg-gray-100
             "
           >
-            About
+            About me
           </Link>
+          <Link
+              href="/about"
+              onClick={() => setIsOpen(false)}
+              className="
+                block 
+                px-3 
+                py-2 
+                text-gray-700 
+                hover:text-blue-600 
+                transition
+              "
+            >
+              Educations & Experience
+            </Link>
           <Link
             href="/pages/project"
             className="
@@ -181,11 +193,26 @@ const Navbar = () => {
                 py-3 
                 border-b 
                 text-gray-700 
-                hover:bg-gray-100 
+                hover:text-blue-600 
                 transition
               "
             >
               About
+            </Link>
+            <Link
+              href="/about"
+              onClick={() => setIsOpen(false)}
+              className="
+                block 
+                px-4 
+                py-3 
+                border-b 
+                text-gray-700 
+                hover:text-blue-600 
+                transition
+              "
+            >
+              Educations & Experience
             </Link>
             <Link
               href="/projects"
@@ -196,7 +223,7 @@ const Navbar = () => {
                 py-3 
                 border-b 
                 text-gray-700 
-                hover:bg-gray-100 
+                hover:text-blue-600 
                 transition
               "
             >
@@ -211,7 +238,7 @@ const Navbar = () => {
                 py-3 
                 border-b
                 text-gray-700 
-                hover:bg-gray-100 
+                hover:text-blue-600 
                 transition
               "
             >
@@ -225,7 +252,7 @@ const Navbar = () => {
                 px-4 
                 py-3 
                 text-gray-700 
-                hover:bg-gray-100 
+                hover:text-blue-600 
                 transition
               "
             >

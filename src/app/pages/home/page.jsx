@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '@/components/NavbarMenu/Navbar'
-import Profile from '@/components/Profile'
+import Profile from '@/components/Profiles/Profile'
+import Aboutme from '@/components/Profiles/Aboutme'
+import Footer from '@/components/Footer/Footer'
 
 function Home() {
   return (
@@ -8,6 +10,8 @@ function Home() {
       <Navbar/>
       {}
       <Profile/>
+      <Aboutme/>
+      <Footer/>
     </>
   )
 }
