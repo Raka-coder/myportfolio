@@ -30,27 +30,28 @@ const Navbar = () => {
               duration-300 
               px-3 py-2 
               rounded-md 
-              hover:bg-gray-100
+              
             "
           >
-            Home
+            Beranda
           </Link>
           <Link
-            href="/pages/about"
+            href="/#about"
             className="
               text-gray-700 
               hover:text-blue-600 
               transition 
               duration-300 
-              px-3 py-2 
+              px-3 py-2
+              scroll-smooth 
             "
           >
-            About me
+            Tentang
           </Link>
           <Link
-              href="/about"
-              onClick={() => setIsOpen(false)}
-              className="
+            href="/pages/edukasi-pengalaman"
+            onClick={() => setIsOpen(false)}
+            className="
                 block 
                 px-3 
                 py-2 
@@ -58,9 +59,9 @@ const Navbar = () => {
                 hover:text-blue-600 
                 transition
               "
-            >
-              Educations & Experience
-            </Link>
+          >
+            Edukasi & Pengalaman
+          </Link>
           <Link
             href="/pages/project"
             className="
@@ -70,10 +71,10 @@ const Navbar = () => {
               duration-300 
               px-3 py-2 
               rounded-md 
-              hover:bg-gray-100
+              
             "
           >
-            Projects
+            Projek
           </Link>
           <Link
             href="/pages/contact"
@@ -84,10 +85,10 @@ const Navbar = () => {
               duration-300 
               px-3 py-2 
               rounded-md 
-              hover:bg-gray-100
+              
             "
           >
-            Contact
+            Kontak
           </Link>
           <Link
             href="https://github.com/Raka-coder"
@@ -99,7 +100,7 @@ const Navbar = () => {
               duration-300 
               px-3 py-2 
               rounded-md 
-              hover:bg-gray-100"
+              "
           >
             <IoLogoGithub style={{ width: "24px", height: "24px" }} />
           </Link>
@@ -118,7 +119,7 @@ const Navbar = () => {
                 w-6 
                 transition-transform 
                 duration-300 
-                ${isOpen ? 'rotate-90' : 'rotate-0'}
+                ${isOpen ? "rotate-90" : "rotate-0"}
               `}
               fill="none"
               viewBox="0 0 24 24"
@@ -139,7 +140,7 @@ const Navbar = () => {
                 w-6 
                 transition-transform
                 duration-300
-                ${isOpen ? 'rotate-90' : 'rotate-0'}
+                ${isOpen ? "rotate-90" : "rotate-0"}
                 `}
               fill="none"
               viewBox="0 0 24 24"
@@ -178,11 +179,26 @@ const Navbar = () => {
                 py-3 
                 border-b 
                 text-gray-700 
-                hover:bg-gray-100 
+                hover:text-blue-600
                 transition
               "
             >
-              Home
+              Beranda
+            </Link>
+            <Link
+              href="#about"
+              onClick={() => setIsOpen(false)}
+              className="
+                block 
+                px-4 
+                py-3 
+                border-b 
+                text-gray-700 
+                hover:text-blue-600 
+                transition
+              "
+            >
+              Tentang
             </Link>
             <Link
               href="/about"
@@ -197,22 +213,7 @@ const Navbar = () => {
                 transition
               "
             >
-              About
-            </Link>
-            <Link
-              href="/about"
-              onClick={() => setIsOpen(false)}
-              className="
-                block 
-                px-4 
-                py-3 
-                border-b 
-                text-gray-700 
-                hover:text-blue-600 
-                transition
-              "
-            >
-              Educations & Experience
+              Edukasi & Pengalaman
             </Link>
             <Link
               href="/projects"
@@ -227,7 +228,7 @@ const Navbar = () => {
                 transition
               "
             >
-              Projects
+              Projek
             </Link>
             <Link
               href="/contact"
@@ -242,7 +243,7 @@ const Navbar = () => {
                 transition
               "
             >
-              Contact
+              Kontak
             </Link>
             <Link
               href="https://github.com/Raka-coder/myportfolio"

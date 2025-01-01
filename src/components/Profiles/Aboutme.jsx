@@ -12,19 +12,19 @@ function Aboutme() {
     <>
       <section
         id="about"
-        className="bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50"
+        className="bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50 scroll-smooth"
       >
         <div className="container px-4 mx-auto grid grid-cols-1 md:grid-cols-1 items-start">
           <div className="md:w-1/2 text-center md:text-left mt-12">
             <h1 className="text-2xl md:text-4xl font-bold mb-4 text-blue-600 items-start">
               Tentang Saya
             </h1>
-            <p className="text-xl mb-6 text-gray-600">
+            <p className="md:text-xl text-lg mb-6 text-gray-600">
               Saya Raka Restu Saputra, berasal dari Tasikmalaya, Saya seorang
               mahasiswa Informatika yang sedang menempuh pendidikan di
               Universitas Siliwangi.
             </p>
-            <p className="text-xl mb-6 text-gray-600">
+            <p className="md:text-xl text-lg mb-6 text-gray-600">
               Saya memiliki minat terhadap dunia teknologi, terutama dalam
               pengembangan web, aplikasi, dan internet of things (IoT).
             </p>

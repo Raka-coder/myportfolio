@@ -20,7 +20,7 @@ const Profile = () => {
             <p className="text-xl mb-6 text-gray-600">
               Saya Seorang Web & IoT Developer yang berasal dari Indonesia.
             </p>
-            <div className="space-x-4 justify-center pt-4">
+            <div className="space-x-4 justify-center pt-2">
               {/* <Link
                 href=""
                 className="px-6 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full"
