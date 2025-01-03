@@ -26,7 +26,7 @@ function Aboutme() {
             </p>
             <p className="md:text-xl text-lg mb-6 text-gray-600">
               Saya memiliki minat terhadap dunia teknologi, terutama dalam
-              pengembangan web, aplikasi, dan internet of things (IoT).
+              pengembangan web, aplikasi, jaringan, dan internet of things (IoT).
             </p>
             <p className="text-xl md:text-2xl font-bold mb-4 text-blue-600 items-start">
               Saya mempelajari:
@@ -42,7 +42,7 @@ function Aboutme() {
                 <FaJs className="text-4xl text-yellow-500" title="Javascript"/>
               </li>
               <li className="">
-                <FaReact className="text-4xl text-sky-400 rotate-90" title="React"/>
+                <FaReact className="text-4xl text-sky-400" title="React"/>
               </li>
               <li className="">
                 <FaNodeJs className="text-4xl text-green-600" title="NodeJS"/>

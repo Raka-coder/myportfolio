@@ -1,9 +1,10 @@
 import React from "react";
+import Link from "next/link";
+
 import { RiNextjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io5";
-import Link from "next/link";
 
 function Footer() {
   return (
@@ -50,7 +51,7 @@ function Footer() {
         </div>
         <div className="flex items-center justify-center md:justify-center pb-4 md:pb-10">
           <p className="text-center md:text-left text-sm text-gray-700">
-            &copy; 2025 Raka. All rights reserved.
+            &copy; 2025 Raka. Portofolio.
           </p>
         </div>
       </footer>

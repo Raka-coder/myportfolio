@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '@/components/NavbarMenu/Navbar'
+import Edukasi from '@/components/Education-Experience/Edukasi'
+import Pengalaman from '@/components/Education-Experience/Pengalaman'
 import Footer from '@/components/Footer/Footer'
 
 function page() {
@@ -7,7 +9,9 @@ function page() {
     <>
       <Navbar/>
       {}
-      {/* <Footer/> */}
+      <Edukasi/>
+      <Pengalaman/>
+      <Footer/>
     </>
   )
 }

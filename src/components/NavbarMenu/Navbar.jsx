@@ -16,7 +16,7 @@ const Navbar = () => {
           href="/"
           className="text-2xl font-semibold text-gray-800 hover:text-blue-600 transition"
         >
-          Raka<code>()</code>
+          #Raka
         </Link>
 
         {/* Desktop Navigation */}
@@ -63,7 +63,7 @@ const Navbar = () => {
             Edukasi & Pengalaman
           </Link>
           <Link
-            href="/pages/project"
+            href="/pages/projek"
             className="
               text-gray-700 
               hover:text-blue-600 
@@ -77,7 +77,7 @@ const Navbar = () => {
             Projek
           </Link>
           <Link
-            href="/pages/contact"
+            href="/pages/kontak"
             className="
               text-gray-700 
               hover:text-blue-600 
@@ -186,7 +186,7 @@ const Navbar = () => {
               Beranda
             </Link>
             <Link
-              href="#about"
+              href="/#about"
               onClick={() => setIsOpen(false)}
               className="
                 block 
@@ -201,7 +201,7 @@ const Navbar = () => {
               Tentang
             </Link>
             <Link
-              href="/about"
+              href="/pages/edukasi-pengalaman"
               onClick={() => setIsOpen(false)}
               className="
                 block 
@@ -216,7 +216,7 @@ const Navbar = () => {
               Edukasi & Pengalaman
             </Link>
             <Link
-              href="/projects"
+              href="/pages/projek"
               onClick={() => setIsOpen(false)}
               className="
                 block 
@@ -231,7 +231,7 @@ const Navbar = () => {
               Projek
             </Link>
             <Link
-              href="/contact"
+              href="/pages/kontak"
               onClick={() => setIsOpen(false)}
               className="
                 block 

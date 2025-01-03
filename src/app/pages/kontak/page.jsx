@@ -1,13 +1,17 @@
-import React from 'react'
-import Navbar from '@/components/NavbarMenu/Navbar'
+import React from "react";
+import Navbar from "@/components/NavbarMenu/Navbar";
+import Kontak from "@/components/Contact/Kontak";
+import Footer from "@/components/Footer/Footer";
+
 
 function page() {
   return (
-    <div>
-        <Navbar />
-      My Contact Page
-    </div>
-  )
+    <>
+      <Navbar />
+      <Kontak/>
+      <Footer/>
+    </>
+  );
 }
 
-export default page
+export default page;

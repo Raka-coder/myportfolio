@@ -3,13 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 
 import rakaJpg from "../../assets/images/raka.jpg";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Profile = () => {
   return (
     <>
       <section
         id="home"
-        className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50 pt-12"
+        className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50 md:pt-12 pt-24"
       >
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 text-center md:text-left">
@@ -20,7 +21,7 @@ const Profile = () => {
             <p className="text-xl mb-6 text-gray-600">
               Saya Seorang Web & IoT Developer yang berasal dari Indonesia.
             </p>
-            <div className="space-x-4 justify-center pt-2">
+            <div className="flex md:items-start items-center md:justify-start justify-center space-x-4">
               {/* <Link
                 href=""
                 className="px-6 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full"
@@ -28,10 +29,10 @@ const Profile = () => {
                 Lihat CV
               </Link> */}
               <Link
-                href=""
-                className="px-6 py-4 text-white bg-blue-600 hover:bg-transparent hover:text-blue-600 rounded-full outline outline-1 transition duration-100 ease-in"
+                href="/pages/kontak"
+                className="flex items-center px-6 py-4 text-white bg-blue-600 hover:bg-transparent hover:text-blue-600 rounded-full outline outline-1 transition duration-100 ease-in"
               >
-                Kontak Saya
+                Kontak Saya <IoIosArrowRoundForward className="text-3xl transition-transform transform hover:translate-x-2" />
               </Link>
             </div>
           </div>
@@ -40,8 +41,6 @@ const Profile = () => {
               <Image 
               src={rakaJpg} 
               alt='raka'
-              layout="fill" 
-              objectFit="cover" 
               title='Raka Restu Saputra'
               className="h-auto object-contain rounded-full shadow-xl drop-shadow"
             />
