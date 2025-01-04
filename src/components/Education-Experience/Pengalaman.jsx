@@ -28,36 +28,7 @@ function Pengalaman() {
               Sistem Informasi Jaringan dan Aplikasi
             </p>
           </div>
-          <div className="bg-white shadow-md rounded-lg p-6 my-2">
-            <div className="md:flex items-end justify-between">
-              <h2 className="text-lg font-bold mb-2">SMKN 2 Tasikmalaya</h2>
-              <p className="mb-2">2020 - 2024</p>
-            </div>
-            <p className="text-sm text-gray-600">
-              Sistem Informasi Jaringan dan Aplikasi
-            </p>
-          </div>
-          <div className="bg-white shadow-md rounded-lg p-6 my-2">
-            <div className="md:flex items-end justify-between">
-              <h2 className="text-lg font-bold mb-2">SMKN 2 Tasikmalaya</h2>
-              <p className="mb-2">2020 - 2024</p>
-            </div>
-            <p className="text-sm text-gray-600">
-              Sistem Informasi Jaringan dan Aplikasi
-            </p>
-          </div>
-          <div className="bg-white shadow-md rounded-lg p-6 my-2">
-            <div className="md:flex items-end justify-between">
-              <h2 className="text-lg font-bold mb-2">SMKN 2 Tasikmalaya</h2>
-              <p className="mb-2">2020 - 2024</p>
-            </div>
-            <p className="text-sm text-gray-600">
-              Sistem Informasi Jaringan dan Aplikasi
-            </p>
-          </div>
         </div>
-        
-        
       </section>
     </>
   );

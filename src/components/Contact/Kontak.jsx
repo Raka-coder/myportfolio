@@ -17,7 +17,7 @@ function Kontak() {
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center md:mb-6 mb-24">
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
             <div className="relative w-64 h-64 md:w-96 md:h-96 mt-6">
-              <Image src={kontakPng} alt="kontak" className="h-auto" />
+              <Image src={kontakPng} alt="kontak" className="h-auto drop-shadow-xl" />
             </div>
           </div>
           <div className="md:w-1/2 text-center md:pb-24 md:pt-12">

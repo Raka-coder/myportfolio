@@ -12,7 +12,7 @@ function Edukasi() {
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mt-8 md:pt-12 pt-6 flex justify-center">
             <div className="relative w-64 h-64 md:w-96 md:h-64">
-              <Image src={learningPng} alt="raka" className="h-auto" />
+              <Image src={learningPng} alt="raka" className="h-auto drop-shadow-xl" />
             </div>
           </div>
           <div className="md:w-1/2 text-center md:text-left mt-8">
