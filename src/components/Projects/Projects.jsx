@@ -105,11 +105,12 @@ const Projects = () => {
             </div>
           </div>
           <div className="md:w-1/2 text-center md:text-left mt-8">
-            <h2 className="md:text-6xl text-4xl font-bold text-blue-600">
+            <h2 className="md:text-6xl text-4xl font-bold text-blue-600 mb-4">
               Projek Saya
             </h2>
-            <p className="text-lg text-gray-600 mt-2">
-              Projek yang saya buat dengan menggunakan berbagai teknologi dan bahasa pemrograman untuk menyalami kebutuhan dan keinginan saya sendiri.
+            <p className="text-lg text-gray-600">
+              Projek yang saya kerjakan adalah projek-projek yang saya kerjakan selama
+              saya masih belajar. Projek-projek ini saya kerjakan dengan menggunakan berbagai teknologi dan bahasa pemrograman.
             </p>
           </div>
         </div>

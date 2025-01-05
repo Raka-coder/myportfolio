@@ -45,16 +45,14 @@ function Kontak() {
                 </Link>
               </li>
             </ul>
-            <div className="container md:mt-6 mt-6">
+            <div className="container md:mt-4 mt-6">
               <div className="flex items-center justify-center">
-
-              <Link
-                href="https://drive.google.com/file/d/1OEnXWrwGY8RNdHvxAhGpVOe4ZDjYbvOS/view?usp=sharing"
-                className="flex items-center px-6 py-4 text-white bg-blue-600 hover:bg-transparent hover:text-blue-600 rounded-full outline outline-1 transition duration-100 ease-in"
-
-              >
-                Lihat CV<FaRegFileLines className="text-xl ml-1 mb-0.5"/>
-              </Link>
+                <Link
+                  href="https://drive.google.com/file/d/1OEnXWrwGY8RNdHvxAhGpVOe4ZDjYbvOS/view?usp=sharing"
+                  className="flex items-center px-6 py-4 text-white bg-blue-600 hover:bg-transparent hover:text-blue-600 rounded-full outline outline-1 transition duration-100 ease-in"
+                >
+                  Lihat CV<FaRegFileLines className="text-xl ml-1 mb-0.5" />
+                </Link>
               </div>
             </div>
           </div>

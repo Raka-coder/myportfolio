@@ -90,7 +90,7 @@ const Navbar = () => {
           >
             Kontak
           </Link>
-          <Link
+          {/* <Link
             href="https://github.com/Raka-coder"
             target="_blank"
             rel="noopener noreferrer"
@@ -103,7 +103,7 @@ const Navbar = () => {
               "
           >
             <IoLogoGithub style={{ width: "24px", height: "24px" }} />
-          </Link>
+          </Link> */}
         </div>
 
         {/* Mobile Menu Toggle */}

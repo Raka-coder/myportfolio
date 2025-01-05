@@ -8,7 +8,6 @@ function page() {
   return (
     <>
       <Navbar/>
-      {}
       <Edukasi/>
       <Pengalaman/>
       <Footer/>

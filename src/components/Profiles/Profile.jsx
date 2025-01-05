@@ -17,8 +17,10 @@ const Profile = () => {
             <h3 className="text-2xl md:text-3xl font-bold text-gray-800">
               Halo, Saya <br />
             </h3>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-blue-600">Raka Restu Saputra</h1>
-            <p className="text-xl mb-6 text-gray-600">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-blue-600">
+              Raka Restu Saputra
+            </h1>
+            <p className="text-xl mb-4 text-gray-600">
               Saya Seorang Web & IoT Developer yang berasal dari Indonesia.
             </p>
             <div className="flex md:items-start items-center md:justify-start justify-center">
