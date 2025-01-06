@@ -7,7 +7,7 @@ import { FaGithub } from 'react-icons/fa6'
 
 import projectPng from "../../assets/images/Project.png"
 import smartHomeJpg from "../../assets/images/smart_home.jpg"
-import turdifJpg from "../../assets/images/turdif-transformed.jpeg"
+import turdifJpg from "../../assets/images/turdif-dark.png"
 
 const ProjectCard = ({
   title,
@@ -25,7 +25,11 @@ const ProjectCard = ({
         <Image
           src={image}
           alt={title}
+          quality={100}
           layout="fill"
+          priority
+          placeholder="blur"
+          blurDataURL="data:image/..."
           className="transition-transform duration-300 hover:scale-105"
         />
       </div>
@@ -77,14 +81,14 @@ const Projects = () => {
   const project = [
     {
       title: "Smart Home",
-      description: "Penerapan Teknologi Internet of Things (IoT) Pada Sistem Kendali Lampu Pintar Menggunakan Wemos D1 Mini, Relay, Sinric Pro, Dan Google Home",
+      description: "Penerapan Teknologi Internet of Things (IoT) Pada Sistem Kendali Lampu Pintar Menggunakan Wemos D1 Mini, Relay, Sinric Pro, Dan Google Home.",
       image: smartHomeJpg,
       technologies: ["C++", "Sinric Pro", "Google Home"],
       githublink: "https://github.com/Raka-coder/project-smarthome-pio",
     },
     {
       title: "Web Turunan Diferensial",
-      description: "Sebuah Web dengan materi dan kalkulator Turunan Diferensial, Mata Kuliah Kalkulus 1",
+      description: "Sebuah Web dengan materi dan kalkulator Turunan Diferensial, Mata Kuliah Kalkulus 1.",
       image: turdifJpg,
       technologies: ["React", "Tailwind"],
       githublink: "https://github.com/Raka-coder/project-web-turdif-kalkulus_I",
@@ -95,10 +99,9 @@ const Projects = () => {
     <>
       <section
         id=""
-        className="relative min-h-screen mx-auto items-center justify-center bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50 pt-16"
-
+        className="relative min-h-screen mx-auto items-center justify-center bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50 md:pt-20 pt-12"
       >
-        <div className="container mx-auto flex flex-col md:flex-row items-center">
+        <div className="container flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mt-8 md:pt-12 pt-6 flex justify-center">
             <div className="relative w-64 h-64 md:w-96 md:h-64">
               <Image src={projectPng} alt="raka" className="h-auto drop-shadow-xl" />
@@ -109,13 +112,13 @@ const Projects = () => {
               Projek Saya
             </h2>
             <p className="text-lg text-gray-600">
-              Projek yang saya kerjakan adalah projek-projek yang saya kerjakan selama
-              saya masih belajar. Projek-projek ini saya kerjakan dengan menggunakan berbagai teknologi dan bahasa pemrograman.
+              Projek ini saya kerjakan selama
+              saya masih belajar. Projek ini bervariasi dimulai dari Web, IoT, Jaringan.
             </p>
           </div>
         </div>
-        <div className="container mx-auto px-4 py-8 md:pt-32 pt-20">
-          <h1 className="text-2xl md:text-4xl font-bold mb-4 text-blue-600 md:text-start text-center md:pt-12">
+        <div className="container mx-auto px-4 py-8 md:pt-48 pt-20">
+          <h1 className="text-2xl md:text-4xl font-bold mb-6 text-blue-600 md:text-start text-center md:pt-14">
             Berikut beberapa projek yang saya buat
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

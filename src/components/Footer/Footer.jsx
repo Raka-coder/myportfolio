@@ -1,10 +1,10 @@
-import React from "react";
-import Link from "next/link";
+import React from "react"
+import Link from "next/link"
 
-import { RiNextjsFill } from "react-icons/ri";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { FaInstagram } from "react-icons/fa";
-import { IoLogoGithub } from "react-icons/io5";
+import { RiNextjsFill } from "react-icons/ri"
+import { RiTailwindCssFill } from "react-icons/ri"
+import { FaInstagram } from "react-icons/fa"
+import { IoLogoGithub } from "react-icons/io5"
 
 function Footer() {
   return (
@@ -18,7 +18,7 @@ function Footer() {
               <li className="mt-1">
                 <RiNextjsFill
                   className="text-3xl text-zinc-950"
-                  title="NextJS"
+                  title="Next JS"
                 />
               </li>
               <li className="mt-1">

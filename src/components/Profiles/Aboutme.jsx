@@ -1,11 +1,11 @@
-import React from "react";
+import React from "react"
 
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { FaJs } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { SiArduino } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa"
+import { FaCss3Alt } from "react-icons/fa"
+import { FaJs } from "react-icons/fa"
+import { FaReact } from "react-icons/fa"
+import { FaNodeJs } from "react-icons/fa"
+import { SiArduino } from "react-icons/si"
 
 function Aboutme() {
   return (
@@ -16,7 +16,7 @@ function Aboutme() {
       >
         <div className="container px-4 mx-auto grid grid-cols-1 md:grid-cols-1 items-start">
           <div className="md:w-1/2 text-center md:text-left mt-12">
-            <h1 className="text-2xl md:text-4xl font-bold mb-4 text-blue-600 items-start">
+            <h1 className="text-2xl md:text-4xl font-bold mb-6 md:mb-4 text-blue-600 items-start">
               Tentang Saya
             </h1>
             <p className="md:text-xl text-lg mb-6 text-gray-600">

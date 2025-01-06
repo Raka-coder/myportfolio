@@ -1,5 +1,5 @@
-import React from "react";
-import Home from "./pages/beranda/page";
+import React from "react"
+import Home from "./pages/beranda/page"
 
 
 function Page() {

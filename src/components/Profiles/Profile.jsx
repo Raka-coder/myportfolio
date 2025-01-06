@@ -1,9 +1,9 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
+import React from "react"
+import Image from "next/image"
+import Link from "next/link"
 
-import rakaJpg from "../../assets/images/raka.jpg";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import rakaJpg from "../../assets/images/raka.jpg"
+import { IoIosArrowRoundForward } from "react-icons/io"
 
 const Profile = () => {
   return (

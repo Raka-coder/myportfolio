@@ -1,13 +1,13 @@
-"use client";
+"use client"
 
-import React, { useState } from "react";
-import Link from "next/link";
+import React, { useState } from "react"
+import Link from "next/link"
 
-import { IoLogoGithub } from "react-icons/io5";
+import { IoLogoGithub } from "react-icons/io5"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  
   return (
     <nav className="fixed w-full z-50 bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50 shadow">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -29,13 +29,12 @@ const Navbar = () => {
               transition 
               duration-300 
               px-3 py-2 
-              rounded-md 
-              
+              rounded-md
             "
           >
             Beranda
           </Link>
-          <Link
+          {/* <Link
             href="/#about"
             className="
               text-gray-700 
@@ -43,11 +42,10 @@ const Navbar = () => {
               transition 
               duration-300 
               px-3 py-2
-              scroll-smooth 
             "
           >
             Tentang
-          </Link>
+          </Link> */}
           <Link
             href="/pages/edukasi-pengalaman"
             onClick={() => setIsOpen(false)}
@@ -185,7 +183,7 @@ const Navbar = () => {
             >
               Beranda
             </Link>
-            <Link
+            {/* <Link
               href="/#about"
               onClick={() => setIsOpen(false)}
               className="
@@ -199,7 +197,7 @@ const Navbar = () => {
               "
             >
               Tentang
-            </Link>
+            </Link> */}
             <Link
               href="/pages/edukasi-pengalaman"
               onClick={() => setIsOpen(false)}

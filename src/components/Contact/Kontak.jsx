@@ -1,11 +1,11 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from "react"
+import Link from "next/link"
+import Image from "next/image"
 
-import kontakPng from "../../assets/images/Messaging-bro.png";
-import { IoLogoGithub } from "react-icons/io5";
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
-import { FaRegFileLines } from "react-icons/fa6";
+import kontakPng from "../../assets/images/Messaging-bro.png"
+import { IoLogoGithub } from "react-icons/io5"
+import { FaInstagram, FaLinkedin } from "react-icons/fa"
+import { FaRegFileLines } from "react-icons/fa6"
 
 function Kontak() {
   return (
@@ -15,7 +15,7 @@ function Kontak() {
         className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50 md:pt-12 pt-4"
       >
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center md:mb-6 mb-24">
-          <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
+          <div className="md:w-1/2 mt-8 md:mt-0 flex flex-wrap justify-center">
             <div className="relative w-64 h-64 md:w-96 md:h-96 mt-6">
               <Image src={kontakPng} alt="kontak" className="h-auto drop-shadow-xl" />
             </div>

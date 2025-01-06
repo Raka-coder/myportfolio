@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    scroll-behavior: smooth;
+
+/* globals.css atau custom.css */
+html, body {
+  overscroll-behavior: none;
+  touch-action: manipulation;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  overflow-x: hidden;
 }
+
+/* Nonaktifkan transformasi pada body */
+body {
+  position: static !important;
+  overflow: visible !important;
+}
+

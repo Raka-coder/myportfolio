@@ -1,6 +1,8 @@
-import React from "react";
-import Image from "next/image";
-import learningPng from "../../assets/images/Learning-bro.png";
+"use client"
+
+import React from "react"
+import Image from "next/image"
+import learningPng from "../../assets/images/Learning-bro.png"
 
 // Komponen Card Edukasi Reusable
 const EducationCard = ({ school, degree, year }) => {
@@ -44,7 +46,7 @@ function Edukasi() {
   ];
 
   return (
-    <section className="relative min-h-screen mx-auto grid grid-cols-1 md:grid-cols-1 items-center justify-center bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50 pt-8">
+    <section className="relative min-h-screen mx-auto grid grid-cols-1 md:grid-cols-1 items-center justify-center bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50 md:pt-16 pt-12">
       {/* Bagian Header dengan Gambar */}
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Gambar */}
@@ -60,7 +62,7 @@ function Edukasi() {
 
         {/* Deskripsi */}
         <div className="md:w-1/2 text-center md:text-left mt-8">
-          <h2 className="md:text-6xl text-4xl font-bold text-blue-600 mb-4">
+          <h2 className="md:text-6xl text-4xl font-bold text-blue-600 mb-6">
             Edukasi
           </h2>
           <p className="text-lg text-gray-600">
@@ -71,8 +73,8 @@ function Edukasi() {
       </div>
 
       {/* Daftar Edukasi */}
-      <div className="container px-4 mx-auto grid grid-cols-1 md:grid-cols-1 items-start md:pt-32 pt-12">
-        <h1 className="text-2xl md:text-4xl font-bold mb-4 text-blue-600 md:text-start text-center md:pt-12">
+      <div className="container px-4 mx-auto grid grid-cols-1 md:grid-cols-1 items-start md:pt-48 pt-12">
+        <h1 className="text-2xl md:text-4xl font-bold mb-4 text-blue-600 md:text-start text-center md:pt-24">
           History Edukasi Saya
         </h1>
         
