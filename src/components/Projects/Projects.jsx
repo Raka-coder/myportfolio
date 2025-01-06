@@ -101,8 +101,8 @@ const Projects = () => {
         id=""
         className="relative min-h-screen mx-auto items-center justify-center bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50 md:pt-20 pt-12"
       >
-        <div className="container flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mt-8 md:pt-12 pt-6 flex justify-center">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2 mt-8 md:pt-12 pt-6 flex items-center justify-center">
             <div className="relative w-64 h-64 md:w-96 md:h-64">
               <Image src={projectPng} alt="raka" className="h-auto drop-shadow-xl" />
             </div>
