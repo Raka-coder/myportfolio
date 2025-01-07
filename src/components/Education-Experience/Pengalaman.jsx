@@ -3,7 +3,7 @@ import React from "react"
 function Pengalaman() {
   return (
     <>
-      <section
+      {/* <section
         id=""
         className="relative min-h-screen mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-center bg-gradient-to-br from-zinc-50 via-blue-50 to-slate-50 pt-8"
 
@@ -29,7 +29,7 @@ function Pengalaman() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

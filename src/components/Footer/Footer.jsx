@@ -34,11 +34,13 @@ function Footer() {
               <Link
                 href="https://instagram.com/rakresptra"
                 className="hover:scale-105"
+                target="_blank"
               >
                 <FaInstagram className="md:text-3xl text-4xl text-[#FF5B50]" />
               </Link>
               <Link
                 href="https://github.com/Raka-coder"
+                target="_blank"
                 className="hover:scale-105"
               >
                 <IoLogoGithub className="md:text-3xl text-4xl" />

@@ -74,10 +74,6 @@ function Edukasi() {
 
       {/* Daftar Edukasi */}
       <div className="container px-4 mx-auto grid grid-cols-1 md:grid-cols-1 items-start md:pt-48 pt-12">
-        <h1 className="text-2xl md:text-4xl font-bold mb-4 text-blue-600 md:text-start text-center md:pt-24">
-          History Edukasi Saya
-        </h1>
-        
         {/* Mapping Kartu Edukasi */}
         {educationData.map((education) => (
           <EducationCard

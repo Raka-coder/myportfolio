@@ -30,25 +30,26 @@ function Kontak() {
             </p>
             <ul className="flex items-center justify-center mt-4 space-x-2.5">
               <li className="hover:scale-105">
-                <Link href="https://github.com/Raka-coder">
+                <Link href="https://github.com/Raka-coder" target="_blank">
                   <IoLogoGithub className="text-4xl" />
                 </Link>
               </li>
               <li className="hover:scale-105">
-                <Link href="https://instagram.com/rakresptra">
+                <Link href="https://instagram.com/rakresptra" target="_blank">
                   <FaInstagram className="text-4xl text-[#FF5B50]" />
                 </Link>
               </li>
               <li className="hover:scale-105">
-                <Link href="https://www.linkedin.com/in/raka-restu-saputra-25a333315/">
+                <Link href="https://www.linkedin.com/in/raka-restu-saputra-25a333315/" target="_blank">
                   <FaLinkedin className="text-4xl text-blue-600" />
                 </Link>
               </li>
             </ul>
-            <div className="container md:mt-4 mt-6">
+            <div className="container md:mt-4 mt-4">
               <div className="flex items-center justify-center">
                 <Link
                   href="https://drive.google.com/file/d/1OEnXWrwGY8RNdHvxAhGpVOe4ZDjYbvOS/view?usp=sharing"
+                  target="_blank"
                   className="flex items-center px-6 py-4 text-white bg-blue-600 hover:bg-transparent hover:text-blue-600 rounded-full outline outline-1 transition duration-100 ease-in"
                 >
                   Lihat CV<FaRegFileLines className="text-xl ml-1 mb-0.5" />

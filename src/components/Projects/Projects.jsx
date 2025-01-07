@@ -113,14 +113,11 @@ const Projects = () => {
             </h2>
             <p className="text-lg text-gray-600">
               Projek ini saya kerjakan selama
-              saya masih belajar. Projek ini bervariasi dimulai dari Web, IoT, Jaringan.
+              saya masih belajar. Projek ini dimulai dari Web, IoT, Jaringan.
             </p>
           </div>
         </div>
         <div className="container mx-auto px-4 py-8 md:pt-48 pt-20">
-          <h1 className="text-2xl md:text-4xl font-bold mb-6 text-blue-600 md:text-start text-center md:pt-14">
-            Berikut beberapa projek yang saya buat
-          </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {project.map((project, index) => (
               <ProjectCard

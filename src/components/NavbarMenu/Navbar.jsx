@@ -29,7 +29,6 @@ const Navbar = () => {
               transition 
               duration-300 
               px-3 py-2 
-              rounded-md
             "
           >
             Beranda
@@ -68,8 +67,6 @@ const Navbar = () => {
               transition 
               duration-300 
               px-3 py-2 
-              rounded-md 
-              
             "
           >
             Projek
@@ -82,8 +79,6 @@ const Navbar = () => {
               transition 
               duration-300 
               px-3 py-2 
-              rounded-md 
-              
             "
           >
             Kontak
@@ -243,7 +238,7 @@ const Navbar = () => {
             >
               Kontak
             </Link>
-            <Link
+            {/* <Link
               href="https://github.com/Raka-coder/myportfolio"
               onClick={() => setIsOpen(false)}
               className="
@@ -256,7 +251,7 @@ const Navbar = () => {
               "
             >
               <IoLogoGithub style={{ width: "24px", height: "24px" }} />
-            </Link>
+            </Link> */}
           </div>
         )}
       </div>
